@@ -5,7 +5,7 @@ from pymongo import MongoClient
 from pprint import pprint
 
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
-client = MongoClient("mongodb+srv://dbUser:rootroot@cluster0.vokwf.mongodb.net/test")
+client = MongoClient("mongodb+srv://<username>:<password>@cluster0.vokwf.mongodb.net/test")
 database = client["samples_pokemon"]
 collection = database["samples_pokemon"]
 
